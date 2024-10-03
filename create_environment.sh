@@ -11,8 +11,8 @@ touch "$main/app/reminder.sh" "$main/modules/functions.sh" \
       "$main/startup.sh"
 
 # Make the script files executable
-chmod +x "$base_dir/app/reminder.sh" "$base_dir/modules/functions.sh" \
-          "$base_dir/startup.sh"
+chmod +x "$main/app/reminder.sh" "$main/modules/functions.sh" \
+          "$main/startup.sh"
 
 # for functions.sh
 cat << 'EOF' > "$main/modules/functions.sh"
