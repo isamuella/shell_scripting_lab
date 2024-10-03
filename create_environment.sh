@@ -10,6 +10,10 @@ touch "$main/app/reminder.sh" "$main/modules/functions.sh" \
       "$main/assets/submissions.txt" "$main/config/config.env" \
       "$main/startup.sh"
 
+# Make the script files executable
+chmod +x "$base_dir/app/reminder.sh" "$base_dir/modules/functions.sh" \
+          "$base_dir/startup.sh"
+
 # for functions.sh
 cat << 'EOF' > "$main/modules/functions.sh"
 #!/bin/bash
